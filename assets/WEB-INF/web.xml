@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>QRCode</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistrationController</servlet-name>
+    <servlet-class>com.nit.controller.RegistrationController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutAction</servlet-name>
+    <servlet-class>com.nit.controller.LogoutAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>com.nit.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadPersonalDetails</servlet-name>
+    <servlet-class>com.nit.controller.UploadPersonalDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadVehicleDetails</servlet-name>
+    <servlet-class>com.nit.controller.UploadVehicleDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GenerateQr</servlet-name>
+    <servlet-class>com.nit.controller.GenerateQr</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationController</servlet-name>
+    <url-pattern>/RegistrationController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutAction</servlet-name>
+    <url-pattern>/LogoutAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadPersonalDetails</servlet-name>
+    <url-pattern>/UploadPersonalDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadVehicleDetails</servlet-name>
+    <url-pattern>/UploadVehicleDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GenerateQr</servlet-name>
+    <url-pattern>/GenerateQr</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetData</display-name>
+    <servlet-name>GetData</servlet-name>
+    <servlet-class>com.nit.controller.GetData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetData</servlet-name>
+    <url-pattern>/GetData</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ChangePersonalDetails</display-name>
+    <servlet-name>ChangePersonalDetails</servlet-name>
+    <servlet-class>com.nit.controller.ChangePersonalDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePersonalDetails</servlet-name>
+    <url-pattern>/ChangePersonalDetails</url-pattern>
+  </servlet-mapping>
+</web-app>
